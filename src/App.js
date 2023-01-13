@@ -3,7 +3,7 @@ import LoginForm from "./components/LoginForm";
 import TwitterMessage from "./components/TwitterMessage";
 import "./components/Main.css";
 
-export default class App extends Component {
+class App extends Component {
 
   login = ({ username, password }) => {
     console.log(`Logging in ${username} with password ${password}`);
@@ -26,3 +26,5 @@ export default class App extends Component {
   };
 
 };
+
+export default App;
